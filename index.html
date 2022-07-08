@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #plazaSanmartin {
+        width: 100%;
+        height: 100px;
+      }
+      h1 {
+        margin: 0px auto 30px auto;
+        font-size: 25px;
+        width: 50%;
+        text-align: center;
+      }
+      #menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      a {
+        color: white;
+        background-color: gray;
+        font-size: 12px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="cabecera">
+      <img
+        id="plazaSanmartin"
+        src="./imagenes/plazasanmartin.jpg"
+        alt="Plaza_SanMartin"
+      />
+      <h1>Lima Cuadrada</h1>
+    </div>
+    <div id="menu">
+      <a href="">Palacio de Gobierno</a>
+      <a href="">Municipalidad de Lima</a>
+      <a href="">Catedral de Lima</a>
+      <a href="">Muralla de Lima</a>
+    </div>
+    <div>
+      <div id="ladoIzquierdo">
+        <h4>Visitar</h4>
+        <ul>
+          <li>Santa Inquisición</li>
+          <li>Plaza de Acho</li>
+          <li>Jirón de la Unión</li>
+          <li>Iglesias</li>
+          <li>Museos</li>
+          <li>Galerías</li>
+          <li>Barrio Chino</li>
+        </ul>
+      </div>
+      <div id="ladoDerecho">
+        <div class="articulo">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id nemo
+            doloribus asperiores minima. Voluptate cumque facere similique
+            explicabo rerum quam, molestias eius aut perferendis eaque commodi
+            blanditiis quod et eligendi.
+          </p>
+          <img src="./imagenes/PalacioGobierno.jpg" alt="PalacioGobierno" />
+        </div>
+        <div class="articulo">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo unde
+            molestiae dolorum! Maxime, inventore eaque hic quas voluptatibus,
+            explicabo voluptas architecto aliquam neque aperiam voluptate vel
+            dolores alias. Explicabo, dignissimos?
+          </p>
+          <img src="./imagenes/PalacioMunicipal.jpg" alt="PalacioMunicipal" />
+        </div>
+      </div>
+    </div>
+    <div id="piePagina">
+      <img src="./imagenes/CiudadYtecnologia.jpg" alt="logociudadYtecnologia" />
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
